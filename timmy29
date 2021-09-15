@@ -1,0 +1,32 @@
+attempts = 0
+b = 0
+h = 0
+attempt = 0
+area = 0
+fin = str
+
+def area_of_triangle(b,h):
+     return  area_of_triangle(b,h)
+
+while attempt != 4:
+     b=float(input("Enter base number here:"))
+     h=float(input("Enter height here:"))
+#area
+     if  b<h:
+          area=0.5*b*h
+          print(area)
+          attempt
+#attempts
+     elif b>h:
+               attempt == attempts
+               print("Sorry try again")
+               attempts +=1
+               attempt
+              
+               if attempts ==3:
+                 print("No more attempts\n")
+                 fin=str(input("Enter x to exit program"))
+                 if fin=='x':
+                      exit (0)
+          
+area_of_triangle(b,h)      
